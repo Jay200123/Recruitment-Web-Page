@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/card.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/forms.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h3>Recruitment Application Form Page</h3>
+    </div>
+
+    <div class="application-img-container">
+      <img src="../images/recruited.jpeg" class="application-img" />
+      <h3 class="job-info-title">IT Specialist - Magallanes, Makati City.</h3>
+    </div>
+
+    <div class="job-description-container">
+      <h3 class="job-description-title">Job Description</h3>
+      <ul class="job-container-column">
+        <p>Job Details</p>
+        <p>Location</p>
+        <p>Working Hours</p>
+        <p>Working Salary</p>
+        <li><i class="fa-solid fa-suitcase"></i>Full Time</li>
+        <li><i class="fa-solid fa-location-dot"></i>Taguig</li>
+        <li><i class="fa-solid fa-clock"></i>8:00 A.M - 5:00 P.M</li>
+        <li><i class="fa-solid fa-peso-sign"></i>20,000 - 25,000</li>
+      </ul>
+    </div>
+
+    <div class="job-info-description">
+      <h3 class="info-title">Job Description</h3>
+      <ul>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+      </ul>
+
+      <h3 class="info-title">Job Qualifications</h3>
+      <ul>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+        <li class="info-description">Lorem Ipsum</li>
+      </ul>
+    </div>
+
+    <div class="application-form-container">
+      <form method="POST">
+        <h3 class="application-title"><i class="fa-solid fa-user-tie"></i>Application Forms</h3>
+        <div class="application-input-forms">
+          <label>Prefix*</label>
+          <label>Surname*</label>
+          <label>First Name*</label>
+          <label>Middle Name*</label>
+          <select class="prefix-dropdown-container">
+            <option class="dropdown-value">Mr</option>
+            <option class="dropdown-value">Miss</option>
+            <option class="dropdown-value">Mrs</option>
+          </select>
+
+          <input type="text" class="form-input" placeholder="Last Name" />
+
+          <input type="text" class="form-input" placeholder="First Name" />
+
+          <input type="text" class="form-input" placeholder="Middle Name" />
+        </div>
+
+        <div class="application-form-column-2">
+          <label>Birth Date*</label>
+          <label>Mobile Number*</label>
+          <label>Gender*</label>
+          <input type="date" class="form-input" placeholder="Birth Date" />
+          <input
+            type="tel"
+            class="form-input"
+            placeholder="Enter Your Mobile Number"
+          />
+          <select class="prefix-dropdown-container">
+            <option class="dropdown-value">Select Gender</option>
+            <option class="dropdown-value">Male</option>
+            <option class="dropdown-value">Female</option>
+          </select>
+        </div>
+
+        <div class="application-form-address">
+          <label>Full Address*</label>
+          <input type="text" class="form-input" placeholder="Full Address" />
+        </div>
+
+        <div class="application-email-resume">
+          <label>Email Address*</label>
+          <label>Upload Resume File*</label>
+          <input type="email" class="form-input" placeholder="user@gmail.com" />
+          <input type="file" class="form-input" placeholder="Upload Resume" />
+        </div>
+        <div class="btn-container">
+          <button class="btn-submit">SUBMIT</button>
+        </div>
+      </form>
+      <div class="btn-container-back">
+        <button class="btn-submit" onclick="HomePage()">GO BACK</button>
+      </div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

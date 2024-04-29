@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecruitmentPage</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/card.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h3>This is a RecruitmentPage</h3>
+    </div>
+    <main class="main-recruitment-container">
+      <div class="card-container">
+        <img 
+        class="card-img" 
+        src="./images/download (4).jpg"
+         />
+        <div class="card-info">
+          <h3 class="card-header">Company 1</h3>
+          <i class="fas fa-eye"></i>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img class="card-img" src="./images/download (5).jpg" />
+        <div class="card-info">
+          <h3 class="card-header">Company 2</h3>
+          <i class="fas fa-eye"></i>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img class="card-img" src="./images/download (6).jpg" />
+        <div class="card-info">
+          <h3 class="card-header">Company 3</h3>
+          <i class="fas fa-eye"></i>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img class="card-img" src="./images/download (7).jpg" />
+        <div class="card-info">
+          <h3 class="card-header">Company 4</h3>
+          <i class="fas fa-eye"></i>
+        </div>
+      </div>
+    </main>
+    <div class="input-filter-container">
+      <input
+        class="filter-input"
+        type="text"
+        placeholder="Keyword Job Title or Description"
+      />
+      <select class="location-menu">
+        <option>Select Location</option>
+        <option>Taguig City</option>
+        <option>Makati City</option>
+        <option>Paranaque</option>
+        <option>Pasay City</option>
+        <option>Marikina City</option>
+      </select>
+    </div>
+    <div class="main-job-container">
+
+      <div
+       class="job-container"
+       onclick="handlePage()"
+      >
+        <div class="job-info">
+          <h3 class="job-header">Team Leader - <span>Dela Paz Binan Laguna</span></h3>
+          <p class="job-address">Address: 609 Paterno Street Brgy Dela Paz Binan Laguna</p>
+          <p class="job-posted">Job Posted 3 Months, 1 week ago</p>
+        </div>
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+
+      <div class="job-container">
+        <div class="job-info">
+          <h3 class="job-header">Team Leader - <span>Dela Paz Binan Laguna</span></h3>
+          <p class="job-address">Address: 609 Paterno Street Brgy Dela Paz Binan Laguna</p>
+          <p class="job-posted">Job Posted 3 Months, 1 week ago</p>
+        </div>
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+
+      <div class="job-container">
+        <div class="job-info">
+          <h3 class="job-header">Team Leader - <span>Dela Paz Binan Laguna</span></h3>
+          <p class="job-address">Address: 609 Paterno Street Brgy Dela Paz Binan Laguna</p>
+          <p class="job-posted">Job Posted 3 Months, 1 week ago</p>
+        </div>
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+
+      <div class="job-container">
+        <div class="job-info">
+          <h3 class="job-header">Team Leader - <span>Dela Paz Binan Laguna</span></h3>
+          <p class="job-address">Address: 609 Paterno Street Brgy Dela Paz Binan Laguna</p>
+          <p class="job-posted">Job Posted 3 Months, 1 week ago</p>
+        </div>
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+
+      <div class="job-container">
+        <div class="job-info">
+          <h3 class="job-header">Team Leader - <span>Dela Paz Binan Laguna</span></h3>
+          <p class="job-address">Address: 609 Paterno Street Brgy Dela Paz Binan Laguna</p>
+          <p class="job-posted">Job Posted 3 Months, 1 week ago</p>
+        </div>
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+      
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

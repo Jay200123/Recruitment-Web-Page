@@ -1,0 +1,12 @@
+.navbar{
+    max-height: 180px;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 237, 237);
+    box-shadow: 3px 3px 1px rgb(169, 165, 165);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
